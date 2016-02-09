@@ -15,6 +15,9 @@ public class Alumnos {
     
     public Color metodoProfesor(List<String> atributos)
     {
+        atributos.add("Nombre: Daniel");
+        atributos.add("Apellidos: López Lozano");
+        
         return null;
         
     }
