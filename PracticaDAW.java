@@ -161,7 +161,8 @@ public class PracticaDAW extends JFrame implements ActionListener{
            fondo=alumnos.metodoProfesor(atributos);
         }
        // fondo=new Color(255,0,0);
-        getContentPane().setBackground(fondo);
+       area.setBackground(fondo);
+        
         
         texto="";
         for(int i=0;i<atributos.size();i++)
