@@ -56,12 +56,24 @@ public class Alumnos {
         return null;
         
     }
-    
+    /**
+     * Lista con todos los nombres de los alumnos, y al pulsar sobre alguno de ellos aparecerá su información y el color elegido
+     * @author: jjcobojim
+     * @version: 1.0.0
+     * @param atributos: lista con los diferentes atributos de cada alumno
+     * @return Color de fondo elegido
+    */
     public Color metodoJuanjo(List<String> atributos)
     {
-        
-        
-        return null;
+        atributos.add("Nombre: Juan José");
+        atributos.add("Apellidos: Cobo Jiménez");
+        atributos.add("Edad: 23");
+        atributos.add("Aficiones: Deporte, viajar, salir, videojuegos");
+        atributos.add("Nombre PFC: LuckSport (por decidir)");
+        atributos.add("Descripcion PFC: Aplicación web dedicada a la gestión de apuestas deportivas ");
+        atributos.add("Experiencia asignaturas DAW: Buena. Incentiva el trabajo autónomo");
+        atributos.add("Planes de futuro: Encontrar trabajo o seguir formándome");
+        return new Color(0,77,0);  
         
     }
     
