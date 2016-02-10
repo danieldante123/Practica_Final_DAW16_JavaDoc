@@ -17,7 +17,7 @@ public class Alumnos {
     {
         atributos.add("Nombre: Daniel");
         atributos.add("Apellidos: López Lozano");
-        
+        atributos.add("Edad: 33");
         return null;
         
     }
