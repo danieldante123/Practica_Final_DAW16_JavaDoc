@@ -68,7 +68,7 @@ public class Alumnos {
         atributos.add("Nombre: Juan José");
         atributos.add("Apellidos: Cobo Jiménez");
         atributos.add("Edad: 23");
-        atributos.add("Aficiones: Deporte, viajar, salir, videojuegos");
+        atributos.add("Aficiones: Llegar tarde, presumir de Jaén, ir a misa, ver el futbol");
         atributos.add("Nombre PFC: LuckSport (por decidir)");
         atributos.add("Descripcion PFC: Aplicación web dedicada a la gestión de apuestas deportivas ");
         atributos.add("Experiencia asignaturas DAW: Buena. Incentiva el trabajo autónomo");
