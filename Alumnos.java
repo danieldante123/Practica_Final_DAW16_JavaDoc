@@ -31,7 +31,14 @@ public class Alumnos {
     
     public Color metodoAntonioB(List<String> atributos)
     {
-        
+        atributos.add("Nombre: Antonio");
+        atributos.add("Apellidos: Bustamante Morgado");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: cine, musica, teatro");
+        atributos.add("Nombre PFC: TennisTournament");
+        atributos.add("Descripción PFC: Torneos virtuales de tenis basados en partidos reales para usuarios registrados");
+        atributos.add("Experiencia asignatura DAW: ");
+        atributos.add("Planes de futuro: Estudiar todo lo que me gusta y salir de España");
         
         return null;
         
