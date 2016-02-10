@@ -59,9 +59,17 @@ public class Alumnos {
     
     public Color metodoJuanjo(List<String> atributos)
     {
+        atributos.add("Nombre: Juan José");
+        atributos.add("Apellidos: Cobo Jiménez");
+        atributos.add("Edad: 23");
+        atributos.add("Aficiones: Deporte, viajar, salir, videojuegos");
+        atributos.add("Nombre PFC: LuckSport (por decidir)");
+        atributos.add("Descripcion PFC: Aplicación web dedicada a la gestión de apuestas deportivas ");
+        atributos.add("Experiencia asignaturas DAW: Buena. Incentiva el trabajo autónomo");
+        atributos.add("Planes de futuro: Encontrar trabajo o seguir formándome");
+        return new Color(0,77,0);  
         
-        
-        return null;
+      
         
     }
     
