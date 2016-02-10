@@ -37,7 +37,7 @@ public class Alumnos {
         atributos.add("Aficiones: cine, musica, teatro");
         atributos.add("Nombre PFC: TennisTournament");
         atributos.add("Descripción PFC: Torneos virtuales de tenis basados en partidos reales para usuarios registrados");
-        atributos.add("Experiencia asignatura DAW: ");
+        atributos.add("Experiencia asignatura DAW: He aprendido a trabajar por mi cuenta a partir de una base");
         atributos.add("Planes de futuro: Estudiar todo lo que me gusta y salir de España");
         
         return new Color(153, 255, 153);
