@@ -22,11 +22,23 @@ public class Alumnos {
         
     }
     
+    /**
+     * Esta es la documentacion del metodo de Carlos Amezcua Puertas, de 2º CFGS DAW
+     * @author: camezcua
+     * @version: 1.0.0
+     * @param atributos: lista con los diferentes atributos de cada alumno
+    */
     public Color metodoCarlos(List<String> atributos)
     {
-        
-        return null;
-        
+        atributos.add("Nombre: Carlos");
+        atributos.add("Apellidos: Amezcua Puertas);
+        atributos.add("Edad: 21");
+        atributos.add("Aficiones: informatica, cine, musica");
+        atributos.add("Nombre PFC: Por decidir");
+        atributos.add("Descripcion PFC: aplicacion de viñetas");
+        atributos.add("Experiencia asignaturas DAW: satisfecho en programacion y mejorando en diseño");
+        atributos.add("Planes de futuro: algun proyecto en colaboracion");
+        return new Color(254,0,0);
     }
     
     public Color metodoAntonioB(List<String> atributos)
