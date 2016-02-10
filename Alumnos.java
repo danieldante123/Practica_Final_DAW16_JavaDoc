@@ -31,7 +31,7 @@ public class Alumnos {
     public Color metodoCarlos(List<String> atributos)
     {
         atributos.add("Nombre: Carlos");
-        atributos.add("Apellidos: Amezcua Puertas);
+        atributos.add("Apellidos: Amezcua Puertas");
         atributos.add("Edad: 21");
         atributos.add("Aficiones: informatica, cine, musica");
         atributos.add("Nombre PFC: Por decidir");
