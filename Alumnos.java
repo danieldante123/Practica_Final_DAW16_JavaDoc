@@ -133,12 +133,23 @@ public class Alumnos {
         
     }
     
+    /**
+    * @author Pablo Robles
+    * @param atributos Es la lista de datos que se van a ver
+    * @return Color de fondo que se vera en la pantalla
+    */
     public Color metodoPabloR(List<String> atributos)
-    {
+        {
+        atributos.add("Nombre: Pablo");
+        atributos.add("Apellidos: Robles Molina");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: Hacer practicas de DAW, atender en clase, sacar buenas notas, ir a misa los domingos.");
+        atributos.add("Nombre PFC: Plan G");
+        atributos.add("Descripcion PFC: Aplicación web donde encontrar todos los planes en tu ciudad.");
+        atributos.add("Experiencia asignatura DAW: Ha dado una visión general pero no muy profunda de diversos temas referentes al Despliegue de Aplicaciones.");
+        atributos.add("Planes de futuro: Estudiar Desarrollo de Aplicaciones Multiplataforma.");
         
-        
-        return null;
-        
+        return new Color(254,255,0);
     }
     
     public Color metodoDaniel(List<String> atributos)
