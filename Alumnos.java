@@ -100,13 +100,23 @@ public class Alumnos {
         return null;
         
     }
-    
+    /**
+     * @author Antonio Mudarra Machuca
+     * @param atributos Es la lista de frases que se van a visualizar sobre el usuario
+     * @return Color de fondo que se le pondra a la pantalla
+     */
     public Color metodoAntonioM(List<String> atributos)
     {
         atributos.add("Nombre: Antonio");
         atributos.add("Apellidos: Mudarra Machuca");
+        atributos.add("Edad: 19");
+        atributos.add("Aficiones: Karate, videojuegos, programar, peliculas y libros");
+        atributos.add("Nombre PFC: Seiku.es");
+        atributos.add("Descripción PFC: Tu nueva red social de manga, anime y videojuegos.");
+        atributos.add("Experiencia asignatura DAW: Entretenida e interesante");
+        atributos.add("Planes de futuro: Seguir estudiando y ampliar conocimientos en programación, tal vez ir a carrera universitaria de la rama de Inteligencia Artificial.");
         
-        return null;
+        return color(128,185,1);
         
     }
     
