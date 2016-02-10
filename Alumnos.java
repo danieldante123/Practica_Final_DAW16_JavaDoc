@@ -97,11 +97,24 @@ public class Alumnos {
         
     }
     
-    public Color metodoRuben(List<String> atributos)
-    {
+    /**
+     * /**
+     * @author Rubén Girela Castellón
+     * @param atributos es una lista de mi información
+     * @return color de fondo
+     */
+    public Color metodoRuben(List<String> atributos){
         
+        atributos.add("nombre: Ruben");
+        atributos.add("apellidos: Girela Castellón");
+        atributos.add("edad: 20");
+        atributos.add("aficion: videojuegos");
+        atributos.add("nombre PFC: Kiwi");
+        atributos.add("descripcion PFC: Aplicacion Web de programas");
+        atributos.add("Experiencia asignatura DAW: Interesante");
+        atributos.add("Planes de futuro: Trabajar");
         
-        return null;
+        return new Color(0, 255, 255);
         
     }
     
