@@ -69,11 +69,26 @@ public class Alumnos {
         
     }
     
+    /**
+     * Aparecerán una lista con todos los nombres de los alumnos y al pulsar un alumno se mostrarán sus datos y el color que 
+     * él haya elegido
+     * @param atributos Lista de frases que se va a visualizar (datos de los alumnos)
+     * @return Color de fondo para la pantalla
+    */
     public Color metodoVeronica(List<String> atributos)
     {
+        atributos.add("Nombre: Verónica");
+        atributos.add("Apellidos: Espigares Asenjo");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: Natación");
+        atributos.add("Nombre PFC: Guardería bbsvero");
+        atributos.add("Descripcion PFC: En mi proyecto voy a crear una comunicación diaria entre los padres de los alumnos y"+
+        "los profesores de la guarderia. Además voy a gestionar todos los datos de la guardería (profesores, secretario, alumnos,"+
+        "padres, etc)");
+        atributos.add("Experiencia asignatura DAW: Asignautra dinámica");
+        atributos.add("Planes de futuro: Estudiar el módulo de multiplataforma y hacer cursos (android, photoshop)");
         
-        
-        return null;
+        return new Color(153,0,153);
         
     }
     
