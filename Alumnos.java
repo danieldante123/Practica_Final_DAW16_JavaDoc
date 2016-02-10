@@ -31,7 +31,7 @@ public class Alumnos {
     public Color metodoCarlos(List<String> atributos)
     {
         atributos.add("Nombre: Carlos");
-        atributos.add("Apellidos: Amezcua Puertas);
+        atributos.add("Apellidos: Amezcua Puertas");
         atributos.add("Edad: 21");
         atributos.add("Aficiones: informatica, cine, musica");
         atributos.add("Nombre PFC: Por decidir");
@@ -52,8 +52,15 @@ public class Alumnos {
     public Color metodoFrancisco(List<String> atributos)
     {
         
-        
-        return null;
+        atributos.add("Nombre: Paco");
+        atributos.add("Apellidos: Cantizani Lopez");
+        atributos.add("Edad: 24");
+        atributos.add("Aficiones: Estudiar, ser responsable, cumplir con mi deber");
+        atributos.add("Nombre PFC: aPHPuntes");
+        atributos.add("Descripcion PFC: aplicación de gestión de apuntes por palabras clave");
+        atributos.add("Experiencia asignaturas DAW: Complemento perfecto para crear tu servidor en casa");
+        atributos.add("Planes de futuro: proyectos sobre aplicaciones que fomenten etica, ecologia o libre información ");
+        return new Color(69,69,69);
         
     }
     
