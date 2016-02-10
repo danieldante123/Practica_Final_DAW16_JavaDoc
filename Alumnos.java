@@ -136,7 +136,7 @@ public class Alumnos {
         
     }
     
-     /**
+    /**
     * @author Jaime Ocón
     * @param atributos Lista que contiene los datos
     * @return Color de fondo de la pantalla
