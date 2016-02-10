@@ -148,11 +148,23 @@ public class Alumnos {
         
     }
     
+    /**
+    * @author Jaime Ocón
+    * @param atributos Lista que contiene los datos
+    * @return Color de fondo de la pantalla
+    */
     public Color metodoJaime(List<String> atributos)
     {
+        atributos.add("Nombre: Jaime");
+        atributos.add("Apellidos: Ocón Luján");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: Salir,videojuegos");
+        atributos.add("Nombre PFC: Lorem ipsum");
+        atributos.add("Descripcion PFC: Aplicacion web para gestionar una empresa de servicios");
+        atributos.add("Experiencia asignatura DAW: Buena");
+        atributos.add("Planes de futuro: Seguir estudiando");
         
-        
-        return null;
+        return new Color(111,111,111);
         
     }
     
