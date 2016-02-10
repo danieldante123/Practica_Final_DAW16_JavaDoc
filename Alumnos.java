@@ -103,7 +103,8 @@ public class Alumnos {
     
     public Color metodoAntonioM(List<String> atributos)
     {
-        
+        atributos.add("Nombre: Antonio");
+        atributos.add("Apellidos: Mudarra Machuca");
         
         return null;
         
