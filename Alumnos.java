@@ -191,11 +191,25 @@ public class Alumnos {
         return new Color(254,255,0);
     }
     
+    /**
+     * Metodo que da la informacion de el alumno Daniel
+     * @author: Daniel Ruiz Medina
+     * @param atributos es la lista de frases que se va a visualizar
+     * @return Color de fondo que se le pondra a la pantalla
+     * 
+    */ 
     public Color metodoDaniel(List<String> atributos)
     {
+        atributos.add("Nombre: Daniel");
+        atributos.add("Apellidos: López Lozano");
+        atributos.add("Edad: 22");
+        atributos.add("Aficiones: Programar, Cine, Deporte,...");
+        atributos.add("Nombres PFC: RecSoc");
+        atributos.add("Descripcion PFC: red social que mediante eventos pretende medir la imagen corporativa de las empresas");
+        atributos.add("Experiencia asignatura DAW: Es una asignatura que se aprenden cosas utiles");
+        atributos.add("Planes de futuro: Continuar mis estudios con un Grado en Informatica en la UGR");
         
-        
-        return null;
+        return new color(0,255,255);
         
     }
 }
