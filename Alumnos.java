@@ -40,7 +40,7 @@ public class Alumnos {
         atributos.add("Experiencia asignatura DAW: ");
         atributos.add("Planes de futuro: Estudiar todo lo que me gusta y salir de España");
         
-        return null;
+        return new Color(153, 255, 153);
         
     }
     
