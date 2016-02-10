@@ -31,7 +31,7 @@ public class Alumnos {
     public Color metodoCarlos(List<String> atributos)
     {
         atributos.add("Nombre: Carlos");
-        atributos.add("Apellidos: Amezcua Puertas);
+        atributos.add("Apellidos: Amezcua Puertas");
         atributos.add("Edad: 21");
         atributos.add("Aficiones: informatica, cine, musica");
         atributos.add("Nombre PFC: Por decidir");
@@ -148,11 +148,23 @@ public class Alumnos {
         
     }
     
+    /**
+    * @author Jaime Ocón
+    * @param atributos Lista que contiene los datos
+    * @return Color de fondo de la pantalla
+    */
     public Color metodoJaime(List<String> atributos)
     {
+        atributos.add("Nombre: Jaime");
+        atributos.add("Apellidos: Ocón Luján");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: Salir,videojuegos");
+        atributos.add("Nombre PFC: Lorem ipsum");
+        atributos.add("Descripcion PFC: Aplicacion web para gestionar una empresa de servicios");
+        atributos.add("Experiencia asignatura DAW: Buena");
+        atributos.add("Planes de futuro: Seguir estudiando");
         
-        
-        return null;
+        return new Color(111,111,111);
         
     }
     
@@ -191,11 +203,25 @@ public class Alumnos {
         return new Color(254,255,0);
     }
     
+    /**
+     * Metodo que da la informacion de el alumno Daniel
+     * @author: Daniel Ruiz Medina
+     * @param atributos es la lista de frases que se va a visualizar
+     * @return Color de fondo que se le pondra a la pantalla
+     * 
+    */ 
     public Color metodoDaniel(List<String> atributos)
     {
+        atributos.add("Nombre: Daniel");
+        atributos.add("Apellidos: López Lozano");
+        atributos.add("Edad: 22");
+        atributos.add("Aficiones: Programar, Cine, Deporte,...");
+        atributos.add("Nombres PFC: RecSoc");
+        atributos.add("Descripcion PFC: red social que mediante eventos pretende medir la imagen corporativa de las empresas");
+        atributos.add("Experiencia asignatura DAW: Es una asignatura que se aprenden cosas utiles");
+        atributos.add("Planes de futuro: Continuar mis estudios con un Grado en Informatica en la UGR");
         
-        
-        return null;
+        return new color(0,255,255);
         
     }
 }
