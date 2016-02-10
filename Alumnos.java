@@ -121,7 +121,7 @@ public class Alumnos {
     }
      /**
      * Esta es la documentacion del metodo de Juan Carlos Martin Picon, 2º curso de la asignatura DAW
-     * @author: Picon89
+     * @author: picon89
      * @version: 1.0.0
      * @param atributos: Campos con los diferentes atributos de un alumno
      * @return Color de fondo de la pantalla
@@ -129,13 +129,12 @@ public class Alumnos {
     
     public Color metodoJuanCarlos(List<String> atributos)
     {
-        atributos.add("Nombre: JuanCarlos");
+        	atributos.add("Nombre: JuanCarlos");
 		atributos.add("Apellidos:MartinPicon");
 		atributos.add("Edad:26");
 		atributos.add("Aficiones:Mtb,Futbol");
 		atributos.add("Nombre PFC:Practica GitHub");
-		atributos.add("Descripcion PFC:Generar una aplicacion Java con una inter
-						faz grafica con su correspondiente documentacion.");
+		atributos.add("Descripcion PFC:Generar una aplicacion Java con una interfaz grafica con su correspondiente documentacion.");
 		atributos.add("Experiencia asignatura DAW:1 año,aprendiendo bastante en diversos campos.");
 		atributos.add("Planes de futuro:Trabajar en el mundillo FrontEnd.");
 		//verde claro
