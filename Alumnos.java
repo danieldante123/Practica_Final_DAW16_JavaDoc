@@ -63,12 +63,26 @@ public class Alumnos {
         return new Color(153, 255, 153);
         
     }
-    
+    /**
+     * Datos personales de Francisco 
+     * @author: Paco
+     * @param atributos: Datos del alumno autor
+     * @version 1.1
+     * @return devuelve un color
+    */
     public Color metodoFrancisco(List<String> atributos)
     {
         
+        atributos.add("Nombre: Paco");
+        atributos.add("Apellidos: Cantizani Lopez");
+        atributos.add("Edad: 24");
+        atributos.add("Aficiones: Videojuegos, cine, misterio, tecnologia");
+        atributos.add("Nombre PFC: aPHPuntes");
+        atributos.add("Descripción PFC: Una aplicacion web con capacidad para ordenar y buscar tus apuntes por palabras clave");
+        atributos.add("Experiencia asignatura DAW: He aprendido metodos muy practicos para ejercer un trabajo por mi cuenta");
+        atributos.add("Planes de futuro: Hacer algun proyecto con fines politicos eticos o ecologicos");
         
-        return null;
+        return Color(0,85,133);
         
     }
     /**
