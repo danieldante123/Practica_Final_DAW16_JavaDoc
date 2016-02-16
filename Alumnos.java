@@ -190,11 +190,24 @@ public class Alumnos {
         
     }
     
+     /**
+    * @author Alejandro
+    * @param atributos Listado a mostrar
+    * @return Color de fondo que del listado
+    */
     public Color metodoAlejandro(List<String> atributos)
     {
         
+        atributos.add("Nombre: Alejandro");
+        atributos.add("Apellidos: Ramos Morente");
+        atributos.add("Edad: 21");
+        atributos.add("Aficiones: Videojuegos");
+        atributos.add("Nombre PFC: Mango");
+        atributos.add("Descripcion PFC: Aplicacion Web para gestionar imagenes");
+        atributos.add("Experiencia asignatura DAW: Excepcional");
+        atributos.add("Planes de futuro: Seguir estudiando");
         
-        return null;
+        return new Color(204,204,0);
         
     }
     
