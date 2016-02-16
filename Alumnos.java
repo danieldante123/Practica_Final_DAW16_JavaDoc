@@ -41,11 +41,26 @@ public class Alumnos {
         return new Color(254,0,0);
     }
     
+    /**
+     * Se pretende crear una lista con los alumnos de EAG de 2º DAW en la que se desplieguen los datos de cada alumno al seleccionarlos
+     * @author: Antonio Bustamante
+     * @param atributos documentacion sobre el alumno en cuestion
+     * @version 1.0
+     * @return devuelve el color de fondo
+    */
+    
     public Color metodoAntonioB(List<String> atributos)
     {
+        atributos.add("Nombre: Antonio");
+        atributos.add("Apellidos: Bustamante Morgado");
+        atributos.add("Edad: 20");
+        atributos.add("Aficiones: cine, musica, teatro");
+        atributos.add("Nombre PFC: TennisTournament");
+        atributos.add("Descripción PFC: Torneos virtuales de tenis basados en partidos reales para usuarios registrados");
+        atributos.add("Experiencia asignatura DAW: He aprendido a trabajar por mi cuenta a partir de una base");
+        atributos.add("Planes de futuro: Estudiar todo lo que me gusta y salir de España");
         
-        
-        return null;
+        return new Color(153, 255, 153);
         
     }
     
