@@ -262,7 +262,7 @@ public class Alumnos {
         atributos.add("Nombre: Pablo");
         atributos.add("Apellidos: Robles Molina");
         atributos.add("Edad: 20");
-        atributos.add("Aficiones: Hacer practicas de DAW, atender en clase, sacar buenas notas, ir de bukake los domingos.");
+        atributos.add("Aficiones: Hacer practicas de DAW, atender en clase, sacar buenas notas, ir a misa los domingos.");
         atributos.add("Nombre PFC: Plan G");
         atributos.add("Descripcion PFC: Aplicación web donde encontrar todos los planes en tu ciudad.");
         atributos.add("Experiencia asignatura DAW: Ha dado una visión general pero no muy profunda de diversos temas referentes al Despliegue de Aplicaciones.");
