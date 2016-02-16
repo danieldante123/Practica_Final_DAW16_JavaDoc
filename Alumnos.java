@@ -76,13 +76,25 @@ public class Alumnos {
         return new Color(0,77,0);  
         
     }
-    
+    /**
+     * Lista con los nombre de los alumnos y al clickear sobre alguno aparecera su informacion con su estilo 
+     * @author: David
+     * @version: 1.0.0
+     * @param atributos: lista con los diferentes atributos de cada alumno
+     * @return es el color elegido
+     */
     public Color metodoDavid(List<String> atributos)
     {
-        
-        
+        atributos.add("Nombre: David Cobos");
+        atributos.add("Apellidos: Cobo Jimenez");
+        atriubtos.add("Edad: 22");
+        atributos.add("Aficiones: Jugar a videojuegos,crearlos,escuchar musica y tocar la guitarra");
+        atributos.add("Nombre PFC: aun no lo tengo pensado");
+        atributos.add("Descripcion PFC: Aplicación web para la gestion de videojuegos y scripts de unity ");
+        atributos.add("Experiencia asignaturas DAW: buena porque aprendes a darle otro enfonque a la informatica");
+        atributos.add("Planes de futuro: viajar y hacer el vago");
+        return new Color(21,123,255);  
         return null;
-        
     }
     
     public Color metodoIsidoro(List<String> atributos)
