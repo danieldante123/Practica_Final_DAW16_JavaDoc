@@ -29,6 +29,14 @@ public class Alumnos {
         
     }
     
+    /**
+     * Se pretende crear una lista con los alumnos de EAG de 2º DAW en la que se desplieguen los datos de cada alumno al seleccionarlos
+     * @author: Antonio Bustamante
+     * @param atributos documentacion sobre el alumno en cuestion
+     * @version 1.0
+     * @return devuelve el color de fondo
+    */
+    
     public Color metodoAntonioB(List<String> atributos)
     {
         atributos.add("Nombre: Antonio");
