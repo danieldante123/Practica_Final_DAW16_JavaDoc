@@ -72,9 +72,23 @@ public class Alumnos {
         return null;
         
     }
-    
+     /**
+     * Esta es la documentacion del metodo de Isidoro Cobos Quintana, de 2º CFGS 
+     * @author: Isidoro
+     
+    */
     public Color metodoIsidoro(List<String> atributos)
     {
+       
+        atributos.add("Nombre: Isidoro");
+        atributos.add("Apellidos: Cobos Quintana);
+        atributos.add("Edad: 21");
+        atributos.add("Aficiones: informatica, futbol, musica");
+        atributos.add("Nombre PFC: No se saber");
+        atributos.add("Descripcion PFC: aplicacion de camisas");
+        atributos.add("Experiencia asignaturas DAW: Estoy en el intento");
+        atributos.add("Planes de futuro: Esperar a que una empresa me cntrate");
+        return new Color(254,254,0);
         
         
         return null;
