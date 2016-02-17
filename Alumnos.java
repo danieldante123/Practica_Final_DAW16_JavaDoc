@@ -116,7 +116,13 @@ public class Alumnos {
         return null;
         
     }
-    
+    /**
+     * Nos encontramos ante una lista de alumnos, que van a desplegar los datos del alumno seleccionado
+     * @author: Victor Prieto Morenate
+     * @param atributos datos sobre el alumno
+     * @version 1.0
+     * @return nos devolverá el color de fondo
+    */
     public Color metodoVictor(List<String> atributos)
     {
         
