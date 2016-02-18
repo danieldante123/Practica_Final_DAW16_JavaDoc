@@ -67,7 +67,7 @@ public class Alumnos {
      * Datos personales de Francisco 
      * @author: Paco
      * @param atributos: Datos del alumno autor
-     * @version 1.1
+     * @version 1.2
      * @return devuelve un color
     */
     public Color metodoFrancisco(List<String> atributos)
