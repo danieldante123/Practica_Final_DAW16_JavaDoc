@@ -128,6 +128,16 @@ public class Alumnos {
     
     public Color metodoIsidoro(List<String> atributos)
     {
+        atributos.add("Nombre: Isidoro ");
+        atributos.add("Apellidos:Cobos Quintana");
+        atriubtos.add("Edad: 21");
+        atributos.add("Aficiones:Me encanta el deporte, videojuegos, la informatica...");
+        atributos.add("Nombre PFC: aun no lo tengo pensado");
+        atributos.add("Descripcion PFC: Aplicación web para la gestion de una tienda de ropa ");
+        atributos.add("Experiencia asignaturas DAW: Bastante buena, he utilizado programas que nunca habia visto");
+        atributos.add("Planes de futuro: Técnico y reparador de PC`s ");
+        return new Color(21,123,255);  
+        
         
         
         return null;
