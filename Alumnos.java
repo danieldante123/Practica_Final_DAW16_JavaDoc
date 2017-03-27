@@ -232,12 +232,25 @@ public class Alumnos {
         return new Color(111,111,111);
         
     }
-    
+    /**
+     * Nos encontramos ante una lista de alumnos, que van a desplegar los datos del alumno seleccionado
+     * @author: Victor Prieto Morenate
+     * @param atributos datos sobre el alumno
+     * @version 1.0
+     * @return nos devolverá el color de fondo
+    */
     public Color metodoVictor(List<String> atributos)
     {
         
-        
-        return null;
+        atributos.add("Nombre: Victor");
+        atributos.add("Apellidos: Prieto Morenate");
+        atributos.add("Edad: 28 años");
+        atributos.add("Aficiones: Correr, prácticar cualquier tipo de deporte, la música, la fotografía");
+        atributos.add("Nombre PFC: Aula Oposición");
+        atributos.add("Descripcion PFC: Desarrollaré una plataforma de venta cursos relacionados con oposiciones");
+        atributos.add("Experiencia asignatura DAW: Ha sido una aignatura en la cual he aprendido muchas cosas nuevas y he tenido que investigar muchas cosas por mi propia cuenta, proporcionándome una autonomía necesaria para mi futuro");
+        atributos.add("Planes de futuro: Trabajar en una empresa de desarrollo web y crecer como persona y trabjador.");
+        return new Color(255,119,72);
         
     }
     
